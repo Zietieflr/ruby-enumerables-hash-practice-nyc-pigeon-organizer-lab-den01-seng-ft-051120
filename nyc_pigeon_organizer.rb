@@ -14,7 +14,6 @@ def nyc_pigeon_organizer(data)
           placement = organized_data[name.to_s][category.to_sym].length 
           organized_data[name.to_s][category.to_sym][placement]= specifier.to_s; 
         end
-        binding.pry;
       }
     }
   }
@@ -47,6 +46,7 @@ def nyc_pigeon_organizer(data)
 #  }
 
   organized_data;
+  binding.pry;
 end
 
 pigeon_data = {
