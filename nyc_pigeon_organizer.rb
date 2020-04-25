@@ -17,33 +17,6 @@ def nyc_pigeon_organizer(data)
       }
     }
   }
-  
-    
-    
-    
-    
-    
-#    category.each_pair { |specifier, names| 
-#      names.map { |name| 
-#        data_portion = { name.to_sym => {
-#          category.to_sym => [specifier.to_s]
-#          }
-#        }
-#      organized_data.merge(data_portion);
-#      }
-        
-  
-#    category.each_key { |specifier| 
-#      specifier. { |name|
-#        data_portion = { name.to_sym => {
- #         category.to_sym => [
- #           specifier.to_s
-#          ]
-#        }} 
-#        organized_data.merge(data_portion);
-#      }
-#    }
-#  }
 
   organized_data;
 end
