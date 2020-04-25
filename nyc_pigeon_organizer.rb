@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
         if organized_data[name.to_s] == nil 
           organized_data[(name.to_s)] = { category.to_sym => [specifier.to_s]};
         elsif organized_data[name.to_s][category.to_sym] == nil
-          organized_data = organized_data[name.to_s].store( category.to_sym, [specifier.to_s]); 
+          organized_data[name.to_s].store( category.to_sym, [specifier.to_s]); 
         else 
           placement = organized_data[name.to_s][category.to_sym].length 
           organized_data[name.to_s][category.to_sym][placement]= specifier.to_s; 
